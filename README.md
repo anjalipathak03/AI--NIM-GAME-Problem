@@ -1,5 +1,15 @@
 # `NIM GAME`
 Simulates the game of Nim, in which two players alternate in removing the stones arranged in piles. On each turn, a player must remove one or more stones, provided all stones come from the same pile. The player that takes the last stone/s from the only remaining pile wins the game. First, go to the following site to play the game a few times to understand how it is played: (the piles are arranged in columns and clicking on a specific dot indicate
+
+# 'Min-Max Algorithm'
+Mini-max algorithm is a recursive or backtracking algorithm which is used in decision-making and game theory. It provides an optimal move for the player assuming that opponent is also playing optimally.
+Mini-Max algorithm uses recursion to search through the game-tree.
+Min-Max algorithm is mostly used for game playing in AI. Such as Chess, Checkers, tic-tac-toe, go, and various tow-players game. This Algorithm computes the minimax decision for the current state.
+In this algorithm two players play the game, one is called MAX and other is called MIN.
+Both the players fight it as the opponent player gets the minimum benefit while they get the maximum benefit.
+Both Players of the game are opponent of each other, where MAX will select the maximized value and MIN will select the minimized value.
+The minimax algorithm performs a depth-first search algorithm for the exploration of the complete game tree.
+The minimax algorithm proceeds all the way down to the terminal node of the tree, then backtrack the tree as the recursion.
  
  ![image](https://github.com/Siddhipatade/NIM-GAME/assets/91780318/5e396ab9-44ac-4d23-b6ca-521dcd4fe9ca)
 
